@@ -1,7 +1,7 @@
 {
   "name": "ruoyi",
   "version": "1.0.0",
-  "description": "AGS工作流系统",
+  "description": "工作流系统",
   "author": "若依",
   "license": "MIT",
   "scripts": {

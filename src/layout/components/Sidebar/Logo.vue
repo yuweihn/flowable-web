@@ -35,7 +35,7 @@ export default {
   },
   data() {
     return {
-      title: 'AGS工作流系统',
+      title: '工作流系统',
       logo: logoImg
     }
   }
