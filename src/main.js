@@ -39,27 +39,27 @@ Vue.prototype.$utils = utils
 
 
 Vue.prototype.category = function(str) {
-  const typeMap = {
-    order:'订单',
-    ORDER: '订单',
-    contract: '合同',
-    CONTRACT: '合同',
-    impl: '实施启动',
-    IMPL: '实施启动'
-  }
-  return typeMap[str]
+    const typeMap = {
+        order:'订单',
+        ORDER: '订单',
+        contract: '合同',
+        CONTRACT: '合同',
+        impl: '实施启动',
+        IMPL: '实施启动'
+    }
+    return typeMap[str]
 }
 
 Vue.prototype.msgSuccess = function (msg) {
-  this.$message({ showClose: true, message: msg, type: "success" });
+    this.$message({ showClose: true, message: msg, type: "success" });
 }
 
 Vue.prototype.msgError = function (msg) {
-  this.$message({ showClose: true, message: msg, type: "error" });
+    this.$message({ showClose: true, message: msg, type: "error" });
 }
 
 Vue.prototype.msgInfo = function (msg) {
-  this.$message.info(msg);
+    this.$message.info(msg);
 }
 
 // 全局组件挂载
@@ -78,14 +78,14 @@ Vue.use(permission)
  */
 
 Vue.use(Element, {
-  size: Cookies.get('size') || 'medium' // set element-ui default size
+    size: Cookies.get('size') || 'medium' // set element-ui default size
 })
 
 Vue.config.productionTip = false
 
 new Vue({
-  el: '#app',
-  router,
-  store,
-  render: h => h(App)
+    el: '#app',
+    router,
+    store,
+    render: h => h(App)
 })
