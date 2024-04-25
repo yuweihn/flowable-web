@@ -2,7 +2,7 @@
 
 ```bash
 # 克隆项目
-git clone https://git.agilenaas.com/ags/ags-flowable-web
+git clone https://github.com/yuweihn/flowable-web
 
 # 进入项目目录
 cd ruoyi-ui
@@ -17,7 +17,7 @@ npm install --registry=https://registry.npm.taobao.org
 npm run dev
 ```
 
-浏览器访问 http://localhost:80
+浏览器访问 http://localhost:8080
 
 ## 发布
 
